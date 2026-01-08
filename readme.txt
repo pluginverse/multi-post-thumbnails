@@ -1,5 +1,5 @@
 === Multiple Post Thumbnails ===
-Contributors: chrisscott, voceplatforms
+Contributors: spenserhale
 Tags: thumbnails, image, featured image
 Requires at least: 2.9.2
 Tested up to: 5.0
@@ -9,6 +9,8 @@ License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Adds multiple post thumbnails to a post type. If you've ever wanted more than one Featured Image on a post, this plugin is for you.
+
+Note: This is a fork maintained by Spenser Hale. Originally developed by Chris Scott.
 
 == Installation ==
 
