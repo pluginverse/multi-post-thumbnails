@@ -37,6 +37,41 @@ if (!class_exists('MultiPostThumbnails')) {
 		 */
 		protected static $statics_enqueued = false;
 
+		/**
+		 * The label/name of the post thumbnail to display in the admin metabox
+		 *
+		 * @var string|null
+		 */
+		public $label = null;
+
+		/**
+		 * Used to build the CSS class for the admin meta box
+		 *
+		 * @var string|null
+		 */
+		public $id = null;
+
+		/**
+		 * The post type to register this thumbnail for
+		 *
+		 * @var string
+		 */
+		public $post_type = 'post';
+
+		/**
+		 * The admin metabox priority
+		 *
+		 * @var string
+		 */
+		public $priority = 'low';
+
+		/**
+		 * The admin metabox context
+		 *
+		 * @var string
+		 */
+		public $context = 'side';
+
 		public function __construct($args = array()) {
 			$this->register($args);
 		}
